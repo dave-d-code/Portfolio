@@ -34,12 +34,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#intro">Top<span class="sr-only">(current)</span></a></li>
+
         <li><a href="#about">About me<span class="sr-only">About me</span></a></li>
         <li><a href="#portfolio">Portfolio Websites<span class="sr-only">Portfolio</span></a></li>
         <li><a href="#">Contact<span class="sr-only">Contact</span></a></li>
@@ -83,11 +83,13 @@
 	
 </div>
 
+<div id="portfolio">
 <div class="well">
 	<h1>My websites... feel free to explore each one..</h1>	
 </div>
+</div>
 
-<div class="thumbnail" id="portfolio">
+<div class="thumbnail">
 <img src="images/tropical.jpg" alt="screenshot of tropicalmoonlight.us">
 <div class="caption">
 <div class="well text-center">
@@ -124,21 +126,52 @@
 </div>
 
 <div class="thumbnail">
-<img src="images/greenstlucia.jpg" alt="screenshot of greenstlucia.info">
+<img src="images/locumhire.jpg" alt="screenshot of locumhire.info">
 <div class="caption">
 <div class="well text-center">
-<h3>www.GreenStLucia.info</h3></div>
-<p class="lead">Website offering rental property in St. Lucia</p>
+<h3>www.Locumhire.co.uk</h3></div>
+<p class="lead">Complex Web App to allow Hospital HR to auto hire medical staff on behalf of an Agency. <br>
+<i>(Under development.. reaching final stages)</i></p>
 <p>Coding Attributes: <br>
 	<ul>
 		<li>Written in the PHP Codeigniter framework.</li>
-		<li>Database driven booking and message system, with responsive UI Calender to reflect bookings.</li>
-		<li>Responsive online booking system, with auto calender updates to reflect user submissions.</li>
-		<li>Admin login and extra features, with easy UI to manage bookings and user messages.</li>
-		<li>Also Uses Bootstrap framework.</li>
+		<li>Also uses Bootstrap, Jquery, Ajax.</li>
+		<li>Secure site, which gives different UI's to 3 types of end user: <ul>
+			<li>Hospital HR staff.</li>
+			<li>Agency Admins.</li>
+			<li>Freelance Medical staff.</li>
+		</ul></li>
+		<li>Database driven algorithms to auto notify the correct medical staff re hospital requests for hiring staff for a shift.</li>
+		<li>Freelance medical staff can self book jobs having been selected by the site. Agency and Hospital are updated of progress.</li>
+		<li>Agency Admin section can overview bookings with minimum interaction needed.</li>
+		<li>Ajax alert features to auto notify Agency Admins of hospital requests.</li>
+		<li>Site monitors and hightlights <em>"problematic"</em> bookings with Agency UI features to deal with them.</li>
 	</ul>
 </p>
-<p><a href="http://www.greenstlucia.info" class="btn btn-primary" role="button" target="_blank">Visit GreenStLucia</a></p>
+<p><a href="http://www.locumhire.co.uk" class="btn btn-primary" role="button" target="_blank">Visit Locumhire</a></p>
+</div>
+</div>
+
+<div id="contact">
+<div class="well">
+<h2>Contact Me here</h2>
+<h4>Actually, don't. This is a FCC project, and the form isnt hooked up.</h4>
+<form>
+<div class="form-group">
+<label for="name">Email address</label>
+<input type="text" class="form-control" id="name" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<label for="email">Password</label>
+<input type="email" class="form-control" id="email" placeholder="Your Email" required>
+</div>
+<div class="form-group">
+<label for="comments">Comments</label>
+<textarea name="comments" id="comments" class="form-control" placeholder="Your Comments here" required></textarea>
+</div>
+
+<button type="submit" class="btn btn-default">Submit</button>
+</form>
 </div>
 </div>
 
