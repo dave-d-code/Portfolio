@@ -1,5 +1,6 @@
 body {
 	background-color: #99c2ff;
+	margin-bottom: -20px;
 }
 
 #intro {
@@ -23,3 +24,8 @@ body {
 #portfolio {
 	padding-top: 70px;
 }
+
+#contact {
+	padding-top: 70px;
+}
+
