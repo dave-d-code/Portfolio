@@ -1,3 +1,17 @@
 body {
-	
+	background-color: #99c2ff;
+}
+
+#intro {
+	background: url("http://g33k.net/wp-content/uploads/2014/11/Featured_Virtulization.jpg");
+	background-position: center center;
+	height: 710px;
+	color: #fff;
+	padding-top: 80px;
+	margin-top: 50px;
+
+}
+
+#intro-text {
+	margin-bottom: 400px;
 }
